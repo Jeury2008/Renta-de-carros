@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+margin: 0;
+}
+body{
+    background-color: rgb(145, 186, 219);
+}
+header{
+    max-width: 1000px;
+    min-height: 130px;
+    background: #ffffff;
+    margin: 0 auto;
+    border-radius: 20px 20px 0 0;
+}
+#logo{
+    height: 320px;
+    float: left;
+    margin-top: 20px;
+    
+}
+#log{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+}
+#menu-h{
+    max-width: 1000px;    
+    min-height: 50px;
+    background-color: black;
+    margin: 0 auto;
+}
+#menu-h ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+#menu-h a{
+    color: #fff;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    background-color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+#menu-h ul ul{
+    display: none;
+    position: absolute;
+}
+#menu-h ul li:hover ul{
+    display: block;
+}
+#menu-h a:hover {
+    background-color: rgb(236, 127, 55);
+}
+#slider-container{
+    background-image: url(images\ \(2\).jfif);
+    background-size: cover;
+    
+    max-width: 1000px;
+    min-height: 250px;
+    background-color: #444;
+    margin: 0 auto;
+    animation: animate 10s infinite;
+}
+@keyframes animate{
+    20%{
+        background-image: url(images\ \(4\).jfif);
+        background-size: cover;
+    }
+    }
+    @keyframes animate{
+        20%{
+            background-image: url(images\ \(2\).jfif);
+            background-size: cover;
+        }
+    }
+    @keyframes animate{
+        20%{
+            background-image: url(images\ \(3\).jfif);
+            background-size: cover;
+        }
+    }
+
+#contenedor{
+    max-width: 1000px;
+    min-height: 700px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+#menu-v{
+    width: 300px;
+    min-height: 700px;
+    background-color: #ccc;
+    float: left;
+}
+#menu-v ul{
+    list-style: none;
+padding: 10px;
+}
+#menu-v a{
+    display: block;
+    color: #fff;
+    background: #000000;
+    padding: 10px;
+    text-decoration: none;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15 px;
+}
+#menu-v a:hover{
+    background-color: rgb(233, 119, 38);
+}
+#contenido{
+    width: 700px;
+    min-height: 700px;
+    background-color: #fff;
+    float: right;
+    padding: 15px;
+    box-sizing: border-box;
+
+}
+#contenido h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#contenido p{
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+.img-izq{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+footer{
+    max-width: 1000px;
+    min-height: 130px;
+    background-color: #000000;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+#carros img:hover{
+    border-style: groove;
+ border-color: aqua;
+ border-radius: 25px;
+}
+#carros{
+    max-width: 100px;
+    min-height: 25px;
+}
